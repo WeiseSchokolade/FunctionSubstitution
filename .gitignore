@@ -1,0 +1,9 @@
+/.gradle
+/.idea
+/build
+
+run/*
+!run/saves
+run/saves/Woahhhh, a beautiful world =)/advancements/*
+run/saves/Woahhhh, a beautiful world =)/playerdata/*
+run/saves/Woahhhh, a beautiful world =)/stats/*

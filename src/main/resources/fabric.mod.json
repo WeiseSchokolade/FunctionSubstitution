@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "functioninjection",
+  "version": "${version}",
+  "name": "FunctionSubstitution",
+  "description": "",
+  "authors": [],
+  "accessWidener": "functioninjection.classtweaker",
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/functioninjection/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.schoko.functioninjection.FunctioninjectionClient"
+    ],
+    "main": [
+      "de.schoko.functioninjection.FunctionInjectionMain"
+    ]
+  },
+  "mixins": [
+    "functioninjection.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
